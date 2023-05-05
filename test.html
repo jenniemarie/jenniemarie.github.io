@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Template</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Testing Page</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th  class="cheader" id="pagename">Page Name</th>
+                    <th  class="cheader">URL</th>
+                    <th  class="cheader">Validation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="rheader">Amuse</th>
+                    <td><a href="https://jenniemarie.github.io/amuse.html</a></td>
+                    <td><a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbacs200steven-sanchez.github.io%2Ftemplate.html">VALIDATE</a></td>
+                </tr>
+                <tr>
+                    <th class="rheader">Inspire</th>
+                    <td><a href="https://jenniemarie.github.io/inspire.html"</a></td>
+                    <td><a href=https://validator.w3.org/nu/?doc=https%3A%2F%2Fjenniemarie.github.io%2Finspire.html">VALIDATE</a></td>
+                </tr>
+              <tr>
+                    <th class="rheader">Educate</th>
+                    <td><a href="https://jenniemarie.github.io/educate.html"</a></td>
+                    <td><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjenniemarie.github.io%2Feducate.html">VALIDATE</a></td>
+                </tr>
+                <tr>
+                    <th class="rheader">My Profile</th>
+                    <td><a href="https://jenniemarie.github.io/profile.html"</a></td>
+                    <td><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjenniemarie.github.io%2Fprofile.html">VALIDATE</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <fieldset>
+            <legend>Custom Site Validator Thingy</legend>
+            <form action="https://validator.w3.org/nu/" method="GET">
+                <label for="docurl">Page to validate:</label>
+                <input type="text" name="doc" id="docurl" placeholder="Please enter a valid URL">
+                <input type="checkbox" name="showsource" id="checkbox" checked>
+                <label for="checkbox">Show Source?</label>
+                <!--<textarea id="docurl" name="doc">testing</textarea>-->
+                <input type="submit" value="GO">
+            </form>
+        </fieldset>
+        <p>My links!<br>
+        <a href="index.html">HOME</a><br>
+        </p>
+    </body>
+</html>
